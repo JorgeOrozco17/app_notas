@@ -1,0 +1,31 @@
+# Dependencias
+/node_modules
+/.pnp
+.pnp.js
+
+# Archivos de build (Render los genera con "npm run build")
+/build
+
+# Archivos de entorno (con tu URL de la API o claves privadas)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs y debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Configs de editor o sistema operativo
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# Archivos de cobertura de pruebas
+/coverage
+
+# Archivos de caché de React
+/.eslintcache
